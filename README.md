@@ -9,6 +9,3 @@ A simple weather forecast application that fetches current weather data.
 - Displays temperature in Celsius.
 - Built with HTML, CSS, and JavaScript.
 - Easily deployable on GitHub Pages.
-
-## 📄 License
-This project is licensed under the MIT License.
