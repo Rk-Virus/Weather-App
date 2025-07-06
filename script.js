@@ -19,7 +19,7 @@ const getWeather = async function (city) {
         humidity.innerHTML = result.main.humidity + "%";
         wind.innerHTML = result.wind.speed + " Km/h";
         feelsLike.innerHTML = (Math.round((result.main.feels_like - 273.2)*10)/10) + "°C";
-        pressure.innerHTML = result.main.pressure + " hPa";
+        // pressure.innerHTML = result.main.pressure + " hPa";
         visibility.innerHTML = result.visibility / 1000 + " Km";
     } catch (error) {
         console.error(error);
