@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="weather-card text-center">
+        <form class="d-flex justify-content-center mb-3" role="search" autocomplete="off">
+            <input class="form-control me-2 search-bar" type="search" id="searchField" placeholder="Enter city" aria-label="Search" />
+            <button class="btn btn-primary" id="searchButton" type="submit">Go</button>
+        </form>
+        <img src="https://openweathermap.org/img/wn/01d@4x.png" alt="Weather Icon" class="weather-icon mb-2"
+            id="weatherIcon">
+        <h2 class="fw-bold mb-0" id="temperature">25°C</h2>
+        <div class="mb-1" id="weatherDesc" style="font-size:1.1rem;">Sunny</div>
+        <div class="mb-2 text-muted" id="cityLocation" style="font-size:0.98rem;">City, country</div>
+        <div class="weather-details">
+            <div>
+                <div style="font-size:0.85rem;">Humidity</div>
+                <div id="humidity">60%</div>
+            </div>
+            <div>
+                <div style="font-size:0.85rem;">Wind</div>
+                <div id="wind">12 km/h</div>
+            </div>
+            <div>
+                <div style="font-size:0.85rem;">Feels</div>
+                <div id="feelsLike">27°C</div>
+            </div>
+            <div>
+                <div style="font-size:0.85rem;">Pressure</div>
+                <div id="pressure">997 hPa</div>
+            </div>
+            <div>
+                <div style="font-size:0.85rem;">Visibility</div>
+                <div id="visibility">4 km</div>
+            </div>
+        </div>
+        
+        </div>
+      
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
